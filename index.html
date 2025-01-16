@@ -151,7 +151,7 @@
 			let isFirstLoad = true;
 
 			function initializeEventBus() {
-				eventBus = new EventBus('http://212.104.135.30:8080/eventbus');
+				eventBus = new EventBus('http://212.104.135.30:80/eventbus');
 
 				eventBus.onopen = function () {
 					updateStatus('Connected to server', 'success');
